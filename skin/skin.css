@@ -1,0 +1,180 @@
+/* ZCode 鲸鱼娘皮肤 · 复刻自 dsh-deep-whale (github.com/Small-tailqwq/dsh-deep-whale)
+   代码基于 MIT 许可的 DSH 皮肤移植；鲸鱼娘立绘与场景素材版权归
+   上善（角色原作）与 ZipZipPipe（女仆二次设计）所有，CC BY-NC-SA 4.0，
+   仅供本机个人使用，不得商用或再分发。
+   切换：Ctrl+Alt+1 深海女仆工坊 / Ctrl+Alt+2 虎鲸链路 / Ctrl+Alt+0 默认 */
+
+/* ============ 皮肤一：深海女仆工坊 (maid-atelier) ============ */
+
+html[data-zskin="maid"] {
+  --color-background: #e7edf8 !important;
+  --color-background-alt: rgba(248, 250, 255, 0.65) !important;
+  --color-background-win-alt: #dce6f5 !important;
+  --color-sidebar: #101f4e !important;
+  --color-card: #f8f6f0 !important;
+  --color-card-selected: #ece5d2 !important;
+  --color-popover: #fbf9f3 !important;
+  --color-popover-foreground: #172347 !important;
+  --color-popover-header: #f3efe4 !important;
+  --color-input: rgba(255, 253, 248, 0.88) !important;
+  --color-input-focused: #fffdf8 !important;
+  --color-primary: #526aa8 !important;
+  --color-primary-foreground: #f8f6f0 !important;
+  --color-secondary: #e2e8f5 !important;
+  --color-foreground: #172347 !important;
+  --color-foreground-subtle: rgba(23, 35, 71, 0.62) !important;
+  --color-foreground-subtlest: rgba(23, 35, 71, 0.42) !important;
+  --color-foreground-inverse: #f8f6f0 !important;
+  --color-border: rgba(71, 91, 145, 0.28) !important;
+  --color-border-hover: rgba(197, 164, 104, 0.5) !important;
+  --color-hover: rgba(103, 126, 183, 0.12) !important;
+  --color-accent: rgba(197, 164, 104, 0.16) !important;
+  --color-brand: #526aa8 !important;
+  --color-surface-hover: #e2e8f5 !important;
+  background: transparent !important;
+}
+html[data-zskin="maid"].dark {
+  --color-background: #080f27 !important;
+  --color-background-alt: rgba(18, 31, 67, 0.72) !important;
+  --color-background-win-alt: #0d1937 !important;
+  --color-sidebar: #050d28 !important;
+  --color-card: #131f45 !important;
+  --color-card-selected: #1c326b !important;
+  --color-popover: #16244e !important;
+  --color-popover-foreground: #e5eaf6 !important;
+  --color-popover-header: #1a2a5a !important;
+  --color-input: rgba(17, 30, 66, 0.85) !important;
+  --color-input-focused: #0d1937 !important;
+  --color-primary: #9bb0e1 !important;
+  --color-primary-foreground: #0d1937 !important;
+  --color-secondary: #1c326b !important;
+  --color-foreground: #e5eaf6 !important;
+  --color-foreground-subtle: rgba(229, 234, 246, 0.62) !important;
+  --color-foreground-subtlest: rgba(229, 234, 246, 0.42) !important;
+  --color-foreground-inverse: #0d1937 !important;
+  --color-border: rgba(151, 169, 216, 0.3) !important;
+  --color-border-hover: rgba(211, 180, 119, 0.55) !important;
+  --color-hover: rgba(164, 183, 229, 0.12) !important;
+  --color-accent: rgba(211, 180, 119, 0.16) !important;
+  --color-brand: #9bb0e1 !important;
+  --color-surface-hover: #1a2a5a !important;
+  background: transparent !important;
+}
+
+/* ============ 皮肤二：虎鲸链路 (orca-link) ============ */
+
+html[data-zskin="orca"] {
+  --color-background: #f6f1e7 !important;
+  --color-background-alt: rgba(255, 252, 246, 0.7) !important;
+  --color-background-win-alt: #f0ece2 !important;
+  --color-sidebar: #f0ece2 !important;
+  --color-card: #fbf7ef !important;
+  --color-card-selected: #e8e4da !important;
+  --color-popover: #fbf7ef !important;
+  --color-popover-foreground: #11151b !important;
+  --color-popover-header: #f3efe4 !important;
+  --color-input: #fffdf8 !important;
+  --color-input-focused: #fbf7ef !important;
+  --color-primary: #4b483f !important;
+  --color-primary-foreground: #ffffff !important;
+  --color-secondary: #ebe7de !important;
+  --color-foreground: #11151b !important;
+  --color-foreground-subtle: rgba(17, 21, 27, 0.62) !important;
+  --color-foreground-subtlest: rgba(17, 21, 27, 0.42) !important;
+  --color-foreground-inverse: #ffffff !important;
+  --color-border: rgba(43, 55, 72, 0.16) !important;
+  --color-border-hover: rgba(43, 55, 72, 0.32) !important;
+  --color-hover: rgba(43, 55, 72, 0.07) !important;
+  --color-accent: #e8e4da !important;
+  --color-brand: #4b483f !important;
+  --color-surface-hover: #e8e4da !important;
+  background: transparent !important;
+}
+html[data-zskin="orca"].dark {
+  --color-background: #05080f !important;
+  --color-background-alt: rgba(13, 20, 32, 0.75) !important;
+  --color-background-win-alt: #0a101c !important;
+  --color-sidebar: #070c15 !important;
+  --color-card: #0d1522 !important;
+  --color-card-selected: #16233a !important;
+  --color-popover: #0d1522 !important;
+  --color-popover-foreground: #cfe0f5 !important;
+  --color-popover-header: #131c2c !important;
+  --color-input: rgba(13, 21, 34, 0.85) !important;
+  --color-input-focused: #05080f !important;
+  --color-primary: #4d91ff !important;
+  --color-primary-foreground: #05080f !important;
+  --color-secondary: #131c2c !important;
+  --color-foreground: #cfe0f5 !important;
+  --color-foreground-subtle: rgba(207, 224, 245, 0.62) !important;
+  --color-foreground-subtlest: rgba(207, 224, 245, 0.42) !important;
+  --color-foreground-inverse: #05080f !important;
+  --color-border: rgba(122, 170, 220, 0.22) !important;
+  --color-border-hover: rgba(77, 145, 255, 0.5) !important;
+  --color-hover: rgba(77, 145, 255, 0.1) !important;
+  --color-accent: #16233a !important;
+  --color-brand: #4d91ff !important;
+  --color-surface-hover: #16233a !important;
+  background: transparent !important;
+}
+
+html[data-zskin] body {
+  background: transparent !important;
+}
+
+/* ============ 舞台层 ============
+   铺满全窗，底色跟随主题（被透明化的容器露出干净底色而非白底）；
+   立绘在 ::before（场景）/ ::after（女仆，仅女仆皮肤），由 skin.js
+   立绘图层的左右边界由 --zskin-inset-l/r 定为对话区。 */
+
+[data-zskin-stage] {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-color: var(--color-background);
+}
+[data-zskin-stage]::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: var(--zskin-inset-l, 0px);
+  right: var(--zskin-inset-r, 0px);
+  background:
+    linear-gradient(180deg, rgba(232, 238, 248, 0.74), rgba(232, 238, 248, 0.58) 45%, rgba(232, 238, 248, 0.7)),
+    url("./assets/maid-palace-day.webp") center / cover no-repeat;
+}
+html.dark [data-zskin-stage]::before {
+  background:
+    linear-gradient(180deg, rgba(8, 15, 39, 0.74), rgba(8, 15, 39, 0.58) 45%, rgba(8, 15, 39, 0.72)),
+    url("./assets/maid-palace-night.webp") center / cover no-repeat;
+}
+html[data-zskin="orca"] [data-zskin-stage]::before {
+  background:
+    linear-gradient(rgba(246, 241, 231, 0.72), rgba(246, 241, 231, 0.58)),
+    url("./assets/orca-light.webp") center / cover no-repeat;
+}
+html[data-zskin="orca"].dark [data-zskin-stage]::before {
+  background:
+    linear-gradient(rgba(5, 9, 17, 0.72), rgba(5, 9, 17, 0.58)),
+    url("./assets/orca-dark.webp") center / cover no-repeat;
+}
+/* 女仆立绘（虎鲸皮肤的场景本身就是立绘，无 ::after） */
+[data-zskin="maid"] [data-zskin-stage]::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: var(--zskin-inset-l, 0px);
+  right: var(--zskin-inset-r, 0px);
+  opacity: 0.55;
+  background:
+    url("./assets/maid-right.webp") right 1vw bottom 0 / auto min(48vh, 520px) no-repeat,
+    url("./assets/maid-left.webp") left 1vw bottom 0 / auto min(48vh, 520px) no-repeat;
+}
+@media (max-width: 1180px), (max-height: 600px) {
+  [data-zskin="maid"] [data-zskin-stage]::after {
+    background: none;
+  }
+}

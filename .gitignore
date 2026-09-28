@@ -1,0 +1,4 @@
+.build/
+.zcode-build/
+*.log
+Thumbs.db
